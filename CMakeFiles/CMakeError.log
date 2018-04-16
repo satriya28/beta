@@ -1,0 +1,36 @@
+Determining if the include file mp4v2.h exists failed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3052879507/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3052879507.dir/build.make CMakeFiles/cmTryCompileExec3052879507.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3052879507.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3052879507.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:19: fatal error: mp4v2.h: No such file or directory
+ #include <mp4v2.h>
+                   ^
+compilation terminated.
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3052879507.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec3052879507/fast] Error 2
+
+
+Determining if the include file mp4.h exists failed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1049973588/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1049973588.dir/build.make CMakeFiles/cmTryCompileExec1049973588.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1049973588.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1049973588.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:17: fatal error: mp4.h: No such file or directory
+ #include <mp4.h>
+                 ^
+compilation terminated.
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1049973588.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec1049973588/fast] Error 2
+
+

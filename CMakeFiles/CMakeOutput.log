@@ -1,0 +1,874 @@
+The system is: Linux - 4.2.0-27-generic - i686
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/main/beta/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/main/beta/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec349865701/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec349865701.dir/build.make CMakeFiles/cmTryCompileExec349865701.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec349865701.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec349865701.dir/testCCompiler.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec349865701
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec349865701.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec349865701.dir/testCCompiler.c.o  -o cmTryCompileExec349865701 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec540663872/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec540663872.dir/build.make CMakeFiles/cmTryCompileExec540663872.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec540663872.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec540663872.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec540663872
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec540663872.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec540663872.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec540663872 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.8/lto-wrapper
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.4' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.4) 
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec540663872' '-rdynamic' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec540663872 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.8 -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec540663872.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/4.8/crtend.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/main/beta/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec540663872/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec540663872.dir/build.make CMakeFiles/cmTryCompileExec540663872.dir/build]
+  ignore line: [make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec540663872.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec540663872.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec540663872]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec540663872.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec540663872.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec540663872 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: i686-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.4' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.4) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec540663872' '-rdynamic' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec540663872 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.8 -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec540663872.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/4.8/crtend.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec540663872] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.8] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec540663872.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/4.8] ==> [/usr/lib/gcc/i686-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/i686-linux-gnu/4.8;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec104896845/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec104896845.dir/build.make CMakeFiles/cmTryCompileExec104896845.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec104896845.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec104896845.dir/testCXXCompiler.cxx.o -c /home/main/beta/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec104896845
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec104896845.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec104896845.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec104896845 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3232794887/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3232794887.dir/build.make CMakeFiles/cmTryCompileExec3232794887.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3232794887.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3232794887.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3232794887
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3232794887.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3232794887.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3232794887 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.8/lto-wrapper
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.4' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.4) 
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3232794887' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec3232794887 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.8 -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3232794887.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/4.8/crtend.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/main/beta/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3232794887/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3232794887.dir/build.make CMakeFiles/cmTryCompileExec3232794887.dir/build]
+  ignore line: [make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3232794887.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3232794887.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3232794887]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3232794887.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3232794887.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3232794887 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: i686-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.4' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.4) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3232794887' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec3232794887 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.8 -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3232794887.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/4.8/crtend.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3232794887] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.8] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec3232794887.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/4.8] ==> [/usr/lib/gcc/i686-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/i686-linux-gnu/4.8;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test HAVE_SENDFILE4_SUPPORT succeded with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4108157755/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4108157755.dir/build.make CMakeFiles/cmTryCompileExec4108157755.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4108157755.dir/src.c.o
+/usr/bin/cc   -DHAVE_SENDFILE4_SUPPORT   -Werror-implicit-function-declaration -o CMakeFiles/cmTryCompileExec4108157755.dir/src.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec4108157755
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4108157755.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE_SENDFILE4_SUPPORT    CMakeFiles/cmTryCompileExec4108157755.dir/src.c.o  -o cmTryCompileExec4108157755 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <sys/sendfile.h>
+#include <stdio.h>
+int main()
+{
+sendfile(1, 1, NULL, 0);
+return 0;
+}
+Determining if the include file libv4l1-videodev.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3342095441/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3342095441.dir/build.make CMakeFiles/cmTryCompileExec3342095441.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3342095441.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3342095441.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3342095441
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3342095441.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3342095441.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3342095441 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file linux/videodev2.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3292211578/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3292211578.dir/build.make CMakeFiles/cmTryCompileExec3292211578.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3292211578.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3292211578.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3292211578
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3292211578.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3292211578.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3292211578 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2756445338/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2756445338.dir/build.make CMakeFiles/cmTryCompileExec2756445338.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2756445338.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2756445338.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2756445338
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2756445338.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2756445338.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2756445338 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the function backtrace exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2910094317/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2910094317.dir/build.make CMakeFiles/cmTryCompileExec2910094317.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2910094317.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=backtrace   -o CMakeFiles/cmTryCompileExec2910094317.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2910094317
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2910094317.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=backtrace    CMakeFiles/cmTryCompileExec2910094317.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2910094317 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the function backtrace_symbols exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec767959938/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec767959938.dir/build.make CMakeFiles/cmTryCompileExec767959938.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec767959938.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=backtrace_symbols   -o CMakeFiles/cmTryCompileExec767959938.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec767959938
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec767959938.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=backtrace_symbols    CMakeFiles/cmTryCompileExec767959938.dir/CheckFunctionExists.c.o  -o cmTryCompileExec767959938 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ucontext.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1370882352/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1370882352.dir/build.make CMakeFiles/cmTryCompileExec1370882352.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1370882352.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1370882352.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1370882352
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1370882352.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1370882352.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1370882352 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/sendfile.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3141403208/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3141403208.dir/build.make CMakeFiles/cmTryCompileExec3141403208.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3141403208.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3141403208.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3141403208
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3141403208.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3141403208.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3141403208 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/syscall.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1773362088/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1773362088.dir/build.make CMakeFiles/cmTryCompileExec1773362088.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1773362088.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1773362088.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1773362088
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1773362088.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1773362088.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1773362088 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the function syscall exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec508564190/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec508564190.dir/build.make CMakeFiles/cmTryCompileExec508564190.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec508564190.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=syscall   -o CMakeFiles/cmTryCompileExec508564190.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec508564190
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec508564190.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=syscall    CMakeFiles/cmTryCompileExec508564190.dir/CheckFunctionExists.c.o  -o cmTryCompileExec508564190 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sendfile exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec757919809/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec757919809.dir/build.make CMakeFiles/cmTryCompileExec757919809.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec757919809.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sendfile   -o CMakeFiles/cmTryCompileExec757919809.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec757919809
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec757919809.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sendfile    CMakeFiles/cmTryCompileExec757919809.dir/CheckFunctionExists.c.o  -o cmTryCompileExec757919809 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the function posix_memalign exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1835705647/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1835705647.dir/build.make CMakeFiles/cmTryCompileExec1835705647.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1835705647.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=posix_memalign   -o CMakeFiles/cmTryCompileExec1835705647.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1835705647
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1835705647.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=posix_memalign    CMakeFiles/cmTryCompileExec1835705647.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1835705647 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4188814485/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4188814485.dir/build.make CMakeFiles/cmTryCompileExec4188814485.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4188814485.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4188814485.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4188814485
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4188814485.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4188814485.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4188814485 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1513649240/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1513649240.dir/build.make CMakeFiles/cmTryCompileExec1513649240.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1513649240.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1513649240.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1513649240
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1513649240.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1513649240.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1513649240 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4184982977/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4184982977.dir/build.make CMakeFiles/cmTryCompileExec4184982977.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4184982977.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4184982977.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4184982977
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4184982977.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4184982977.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4184982977 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining size of siginfo_t passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2742399933/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2742399933.dir/build.make CMakeFiles/cmTryCompileExec2742399933.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2742399933.dir/HAVE_SIGINFO_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2742399933.dir/HAVE_SIGINFO_T.c.o   -c /home/main/beta/CMakeFiles/CheckTypeSize/HAVE_SIGINFO_T.c
+Linking C executable cmTryCompileExec2742399933
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2742399933.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2742399933.dir/HAVE_SIGINFO_T.c.o  -o cmTryCompileExec2742399933 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining size of ucontext_t passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec84049385/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec84049385.dir/build.make CMakeFiles/cmTryCompileExec84049385.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec84049385.dir/HAVE_UCONTEXT_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec84049385.dir/HAVE_UCONTEXT_T.c.o   -c /home/main/beta/CMakeFiles/CheckTypeSize/HAVE_UCONTEXT_T.c
+Linking C executable cmTryCompileExec84049385
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec84049385.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec84049385.dir/HAVE_UCONTEXT_T.c.o  -o cmTryCompileExec84049385 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2234260923/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2234260923.dir/build.make CMakeFiles/cmTryCompileExec2234260923.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2234260923.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec2234260923.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2234260923
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2234260923.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec2234260923.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2234260923  -L/home/main/beta/CMakeFiles/CMakeTmp/time.h -rdynamic -lrt -Wl,-rpath,/home/main/beta/CMakeFiles/CMakeTmp/time.h 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file zlib.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2521709773/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2521709773.dir/build.make CMakeFiles/cmTryCompileExec2521709773.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2521709773.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2521709773.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2521709773
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2521709773.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2521709773.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2521709773 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file curl/curl.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4051339508/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4051339508.dir/build.make CMakeFiles/cmTryCompileExec4051339508.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4051339508.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4051339508.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4051339508
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4051339508.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4051339508.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4051339508 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdio.h;jpeglib.h exist passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec938460055/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec938460055.dir/build.make CMakeFiles/cmTryCompileExec938460055.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec938460055.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec938460055.dir/CheckIncludeFiles.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec938460055
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec938460055.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec938460055.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec938460055 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file openssl/md5.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec211620958/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec211620958.dir/build.make CMakeFiles/cmTryCompileExec211620958.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec211620958.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec211620958.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec211620958
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec211620958.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec211620958.dir/CheckIncludeFile.c.o  -o cmTryCompileExec211620958 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2233198729/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2233198729.dir/build.make CMakeFiles/cmTryCompileExec2233198729.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2233198729.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2233198729.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2233198729
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2233198729.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2233198729.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2233198729 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pcre.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec834528822/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec834528822.dir/build.make CMakeFiles/cmTryCompileExec834528822.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec834528822.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec834528822.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec834528822
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec834528822.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec834528822.dir/CheckIncludeFile.c.o  -o cmTryCompileExec834528822 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file gcrypt.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1665657883/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1665657883.dir/build.make CMakeFiles/cmTryCompileExec1665657883.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1665657883.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1665657883.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1665657883
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1665657883.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1665657883.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1665657883 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file gnutls/openssl.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2504078246/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2504078246.dir/build.make CMakeFiles/cmTryCompileExec2504078246.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2504078246.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2504078246.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2504078246
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2504078246.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2504078246.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2504078246 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file gnutls/gnutls.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3758253380/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3758253380.dir/build.make CMakeFiles/cmTryCompileExec3758253380.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3758253380.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3758253380.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3758253380
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3758253380.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3758253380.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3758253380 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file mysql.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1178901127/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1178901127.dir/build.make CMakeFiles/cmTryCompileExec1178901127.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1178901127.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -I/usr/include/mysql    -o CMakeFiles/cmTryCompileExec1178901127.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1178901127
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1178901127.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1178901127.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1178901127 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h;x264.h exist passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3336562399/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3336562399.dir/build.make CMakeFiles/cmTryCompileExec3336562399.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3336562399.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3336562399.dir/CheckIncludeFiles.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3336562399
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3336562399.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3336562399.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3336562399 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file mp4v2/mp4v2.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3532050253/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3532050253.dir/build.make CMakeFiles/cmTryCompileExec3532050253.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3532050253.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3532050253.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3532050253
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3532050253.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3532050253.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3532050253 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file libavformat/avformat.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3606063344/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3606063344.dir/build.make CMakeFiles/cmTryCompileExec3606063344.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3606063344.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -I/usr/include/i386-linux-gnu    -o CMakeFiles/cmTryCompileExec3606063344.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3606063344
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3606063344.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3606063344.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3606063344 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file libavcodec/avcodec.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec539306534/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec539306534.dir/build.make CMakeFiles/cmTryCompileExec539306534.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec539306534.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -I/usr/include/i386-linux-gnu    -o CMakeFiles/cmTryCompileExec539306534.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec539306534
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec539306534.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec539306534.dir/CheckIncludeFile.c.o  -o cmTryCompileExec539306534 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file libavdevice/avdevice.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3429455392/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3429455392.dir/build.make CMakeFiles/cmTryCompileExec3429455392.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3429455392.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -I/usr/include/i386-linux-gnu    -o CMakeFiles/cmTryCompileExec3429455392.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3429455392
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3429455392.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3429455392.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3429455392 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file libavutil/avutil.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3231235845/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3231235845.dir/build.make CMakeFiles/cmTryCompileExec3231235845.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3231235845.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -I/usr/include/i386-linux-gnu    -o CMakeFiles/cmTryCompileExec3231235845.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3231235845
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3231235845.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3231235845.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3231235845 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file libavutil/mathematics.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec738993508/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec738993508.dir/build.make CMakeFiles/cmTryCompileExec738993508.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec738993508.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -I/usr/include/i386-linux-gnu    -o CMakeFiles/cmTryCompileExec738993508.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec738993508
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec738993508.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec738993508.dir/CheckIncludeFile.c.o  -o cmTryCompileExec738993508 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file libswscale/swscale.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec470410204/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec470410204.dir/build.make CMakeFiles/cmTryCompileExec470410204.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec470410204.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -I/usr/include/i386-linux-gnu    -o CMakeFiles/cmTryCompileExec470410204.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec470410204
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec470410204.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec470410204.dir/CheckIncludeFile.c.o  -o cmTryCompileExec470410204 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file vlc/vlc.h exists passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1361070343/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1361070343.dir/build.make CMakeFiles/cmTryCompileExec1361070343.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1361070343.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1361070343.dir/CheckIncludeFile.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1361070343
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1361070343.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1361070343.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1361070343 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the prototype MD5 exists for HAVE_MD5_OPENSSL passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2416083032/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2416083032.dir/build.make CMakeFiles/cmTryCompileExec2416083032.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2416083032.dir/CheckPrototypeDefinition.c.o
+/usr/bin/cc   /usr/lib/i386-linux-gnu/libssl.so /usr/lib/i386-linux-gnu/libcrypto.so -o CMakeFiles/cmTryCompileExec2416083032.dir/CheckPrototypeDefinition.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c
+cc: warning: /usr/lib/i386-linux-gnu/libssl.so: linker input file unused because linking not done
+cc: warning: /usr/lib/i386-linux-gnu/libcrypto.so: linker input file unused because linking not done
+Linking C executable cmTryCompileExec2416083032
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2416083032.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2416083032.dir/CheckPrototypeDefinition.c.o  -o cmTryCompileExec2416083032 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the prototype MD5 exists for HAVE_MD5_GNUTLS passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3617104302/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3617104302.dir/build.make CMakeFiles/cmTryCompileExec3617104302.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3617104302.dir/CheckPrototypeDefinition.c.o
+/usr/bin/cc   /usr/lib/i386-linux-gnu/libgnutls-openssl.so -o CMakeFiles/cmTryCompileExec3617104302.dir/CheckPrototypeDefinition.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c
+cc: warning: /usr/lib/i386-linux-gnu/libgnutls-openssl.so: linker input file unused because linking not done
+Linking C executable cmTryCompileExec3617104302
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3617104302.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3617104302.dir/CheckPrototypeDefinition.c.o  -o cmTryCompileExec3617104302 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
+Determining if the prototype gnutls_fingerprint exists for HAVE_DECL_GNUTLS_FINGERPRINT passed with the following output:
+Change Dir: /home/main/beta/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2327993278/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2327993278.dir/build.make CMakeFiles/cmTryCompileExec2327993278.dir/build
+make[1]: Entering directory `/home/main/beta/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/main/beta/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2327993278.dir/CheckPrototypeDefinition.c.o
+/usr/bin/cc   /usr/lib/i386-linux-gnu/libgnutls-openssl.so -o CMakeFiles/cmTryCompileExec2327993278.dir/CheckPrototypeDefinition.c.o   -c /home/main/beta/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c
+cc: warning: /usr/lib/i386-linux-gnu/libgnutls-openssl.so: linker input file unused because linking not done
+Linking C executable cmTryCompileExec2327993278
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2327993278.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2327993278.dir/CheckPrototypeDefinition.c.o  -o cmTryCompileExec2327993278 -rdynamic 
+make[1]: Leaving directory `/home/main/beta/CMakeFiles/CMakeTmp'
+
+
